@@ -66,7 +66,7 @@ def rdpcap():
 
         # 再写数据部分
 
-        data = packet_data[i].hex()
+        data = packet_data[i]
         # print(data)
         # ftxt.write('此包的数据内容' + repr(packet_data[i]) + '\n')
         ftxt.write('此包的数据内容' + repr(data) + '\n')
